@@ -79,7 +79,7 @@ router.put('/infectionRisk/:covidi', function(req, res, next) {
   //const user = req.body.covidi;
  // console.log("piuy@@@@@");
 
-  
+
  //return;
 
  // res.render('index');
