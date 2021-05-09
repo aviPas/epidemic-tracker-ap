@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
+//var notifications = require('./dds/dds.js');dds/dds.js
 var usersRouter = require('./routes/users');
 //const cache =  require('./routes/routeCache');
 
@@ -34,6 +35,8 @@ app.use('/hello', indexRouter);
 app.use('/covid19', indexRouter);
 app.use('/infectionRisk', indexRouter);
 
+
+///disease-data-source/covid19/notifications
 
 //router.put('/users/:userId', (req, res
 
